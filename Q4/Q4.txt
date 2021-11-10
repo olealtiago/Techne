@@ -1,0 +1,7 @@
+link do github: https://github.com/olealtiago/Techne
+
+QUESTÃO 4:
+4.1:
+SELECT au_fname, au_lname FROM authors WHERE city = "New York"
+4.2
+SELECT publishers.pub_id, publishers.pub_name, titles.price FROM publishers, titles WHERE publishers.pub_id = titles.pub_id
